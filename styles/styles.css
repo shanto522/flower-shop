@@ -1,0 +1,70 @@
+nav{
+    max-height: 850px;
+    max-width: 1820px;
+    margin: 0 auto;
+    display: flex;
+    gap: 107px;
+    background-color: #f5e7ea;
+    
+}
+nav div h2{
+    font-size: 80px;
+    font-weight: bolder;
+   width: 708px;
+}
+nav div p{
+    font-size: 18px;
+    color: #272727;
+}
+nav div button{
+    height: 64px;
+    width: 179px;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+nav div{
+  margin: 167px 0 147px 140px;
+  margin-bottom: ;
+}
+nav img{
+    height: 100%;
+   margin-top: 50px;
+}
+@media screen and (max-width: 576px) {
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav div {
+        margin: 0;
+    }
+
+    nav div h2 {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    nav div p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    nav div button {
+        width: 150px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    nav img {
+        width: 80%;
+        margin-top: 20px;
+    }
+}
