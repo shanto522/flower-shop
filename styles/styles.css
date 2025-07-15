@@ -68,3 +68,118 @@ nav img{
         margin-top: 20px;
     }
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section div{
+    margin-top: 178px;
+    text-align: center;
+}
+section div h2{
+    font-size: 40px;
+
+}
+section div p{
+    font-size: 18px;
+}
+.box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 48px;
+   
+}
+.flower-1{
+    background-color: #f5e7ea;
+    height: 538px;
+    width: 464px;
+   display: flex;
+   justify-content: center;
+  align-items: flex-end;
+   border-radius: 500px 500px 0 0;
+}
+.flower-1 img{
+    height: 428px;
+    width: 310px;
+}
+.flower-1 p{
+   
+}
+.flower-2{
+     background-color: #0597A0;
+    height: 538px;
+    width: 464px;
+   display: flex;
+   justify-content: center;
+  align-items: flex-end;
+   border-radius: 500px 500px 0 0;
+}
+.flower-3{
+    background-color: #477D11;
+    height: 538px;
+    width: 464px;
+   display: flex;
+   justify-content: center;
+  align-items: flex-end;
+  border-radius: 500px 500px 0 0;
+} 
+.flower-name{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    gap: 20px;
+}
+
+.flower-card {
+    text-align: center;
+    width: 464px;
+}
+
+.flower {
+    height: 538px;
+    width: 100%;
+    background-color: #f5e7ea;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 500px 500px 0 0;
+}
+
+.flower img {
+    height: 428px;
+    width: 310px;
+}
+
+.flower-card p {
+    font-size: 24px;
+    text-decoration: underline;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 576px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .flower-name {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    .flower-name p {
+        order: 1;
+    }
+}
