@@ -384,4 +384,35 @@ section div p{
   border-radius: 8px;
   cursor: pointer;
 }
-
+.footer{
+    background-color: black;
+    color: white;
+    height: 450px;
+    width: 1822px;
+    margin: 0 auto;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.footer h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: white;
+}
+.footer h2 span{
+    color: rgb(223, 139, 139);
+}
+.footer p{
+    font-size: 18px;
+}
+.step{
+     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
